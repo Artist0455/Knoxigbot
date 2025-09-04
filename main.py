@@ -2,7 +2,6 @@ import os
 from telegram.ext import ApplicationBuilder, CommandHandler
 
 # Load environment variables
-load_dotenv()
 
 from bot.handlers.start_handler import start_handler
 from bot.handlers.message_handler import message_save_handler
